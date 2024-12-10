@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "regalos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "regalo.solicitanteRegalo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "regalo.yaComprado",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
